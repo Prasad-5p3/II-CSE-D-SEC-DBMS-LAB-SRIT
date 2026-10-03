@@ -9,7 +9,7 @@ CREATE TABLE student (
     marks NUMBER(5,2)
 );
 ```
-![OUTPUT](1.PNG)
+![OUTPUT](1.jpeg)
 ```
 INSERT INTO student VALUES (101, 'Ravi', 'CSE', 85);
 INSERT INTO student VALUES (102, 'Sita', 'CSE', 92);
@@ -28,11 +28,11 @@ INSERT INTO student VALUES (114, 'Swathi', 'EEE', 87);
 INSERT INTO student VALUES (115, 'Ajay', 'ECE', 93);
 COMMIT;
 ```
-![OUTPUT](2.PNG)
+![OUTPUT](2.jpeg)
 ```
 SELECT * FROM student;
 ```
-![OUTPUT](3.PNG)
+![OUTPUT](3.jpeg)
 ```
 SET SERVEROUTPUT ON;
 DECLARE
@@ -76,5 +76,5 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
 END;
 ```
-![OUTPUT](4.PNG)
+![OUTPUT](4.jpeg)
 ```
